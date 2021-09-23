@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link {
+        @apply hover:underline;
+    }
+    .rhap_container {
+        background-color: #f5f5f5 !important;
+    }
+    .rhap_play-pause-button {
+        color: #3a9769;
+    }
+    .rhap_download-progress {
+        background-color: #bbbbbb;
+    }
+    .rhap_progress-filled {
+        background-color: #868686;
+    }
+}
